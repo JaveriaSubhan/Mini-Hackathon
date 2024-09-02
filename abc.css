@@ -1,0 +1,140 @@
+/* General Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #ffffff;
+}
+
+#logo {
+    height: 2rem;
+    width: 2rem;
+}
+.navbar{
+    background-color: #fff  !important;
+}
+#Req {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+
+/* Main Section Styles */
+.main {
+    padding: 4rem 1rem; /* Adjusted padding for better responsiveness */
+}
+
+.main h1 {
+    font-size: 2.5rem; /* Adjusted font size for better readability */
+}
+
+.main p {
+    font-size: 1rem; /* Standardized font size */
+}
+
+/* Partner Logos Section Styles */
+.py-5 {
+    padding-top: 3rem !important; /* Adjusted padding for vertical spacing */
+    padding-bottom: 3rem !important;
+}
+
+.img-fluid {
+width: Hug (1,440px)px;
+height: Hug (310px)px;
+top: 1102px;
+gap: 40px;
+opacity: 0px;
+margin-left: 450px;
+
+}
+.container{
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 8px;
+    background-color: #B9FF66 !important
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    background-color: #ffffff;
+}
+/* Custom Card Background Color */
+.card-custom-bg {
+    background-color: #B9FF66 !important; /* Use !important to override other styles */
+}
+
+/* Accordion Styles */
+.accordion-button {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.accordion-body {
+    font-size: 1rem;
+}
+.accordion-item accord-1{
+    background-color: #B9FF66;
+}
+
+/* Button Styles */
+.btn {
+    border-radius: 8px;
+}
+
+.btn-warning {
+    background-color: #B9FF66;
+    color: #000;
+}
+
+.btn-dark {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #logo {
+        height: 1.5rem;c
+    }
+    .main {
+        padding: 2rem 1rem;
+    }
+
+    .main h1 {
+        font-size: 2rem;
+    }
+
+    .main p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .main {
+        padding: 1rem;
+    }
+
+    .main h1 {
+        font-size: 1.5rem;
+    }
+
+    .main p {
+        font-size: 0.8rem;
+    }
+
+    .card {
+        margin: 1rem 0;
+    }
+}
